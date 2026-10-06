@@ -1,0 +1,32 @@
+# Topic queue
+
+- [ ] How to budget on an irregular income
+- [ ] What is a good credit score and how to improve it
+- [ ] How to build credit from scratch
+- [ ] Credit utilization explained
+- [ ] How to stop living paycheck to paycheck
+- [ ] Debt consolidation loan: pros, cons and when it makes sense
+- [ ] Balance transfer cards: how to calculate whether one saves you money
+- [ ] How to save money on groceries without coupons
+- [ ] The envelope budgeting method (cash stuffing) explained
+- [ ] How to make a budget as a couple
+- [ ] High-yield savings accounts explained
+- [ ] How to track net worth and why it matters
+- [ ] How to pay off a car loan early (and when not to)
+- [ ] Budgeting for a new baby
+- [ ] How to save for a house down payment
+- [ ] Pay yourself first: how it works
+- [ ] How to create a bill calendar so nothing is late
+- [ ] How to do a no-spend month
+- [ ] What to do with a tax refund
+- [ ] How to budget for holidays and gifts
+- [ ] How long does it take to pay off $10,000 in credit card debt
+- [ ] APR vs APY explained
+- [ ] How to negotiate bills (phone, internet, insurance)
+- [ ] How much to spend on rent: rules of thumb
+- [ ] How to budget weekly vs monthly
+- [ ] Student loan payoff strategies (federal vs private basics)
+- [ ] How to start a side income budget and set aside tax money
+- [ ] Money habits to start in your 20s
+- [ ] How to get out of overdraft and stop overdraft fees
+- [ ] How to automate your finances

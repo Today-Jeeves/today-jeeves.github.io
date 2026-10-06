@@ -1,0 +1,17 @@
+---
+layout: default
+title: Plain-English guides to budgeting, debt and saving
+---
+<section class="hero">
+  <h1>Get your money organized, one plain-English step at a time.</h1>
+  <p>Guides to making a budget that sticks, paying off debt faster and saving for the things you care about, with worked examples you can copy.</p>
+</section>
+<section class="post-list">
+  {% for post in site.posts %}
+  <a class="card" href="{{ post.url | relative_url }}">
+    <span class="card-cat">{{ post.category | default: "Guide" }}</span>
+    <span class="card-title">{{ post.title }}</span>
+    <span class="card-sum">{{ post.summary }}</span>
+  </a>
+  {% endfor %}
+</section>

@@ -1,0 +1,2 @@
+{%- comment -%}Usage: {% include amazon.html asin="B000000000" text="Book title" %}{%- endcomment -%}
+{%- if site.amazon_tag != "" -%}<a href="https://www.amazon.com/dp/{{ include.asin }}?tag={{ site.amazon_tag }}" rel="sponsored nofollow">{{ include.text }}</a>{%- else -%}<a href="https://www.amazon.com/dp/{{ include.asin }}" rel="nofollow">{{ include.text }}</a>{%- endif -%}

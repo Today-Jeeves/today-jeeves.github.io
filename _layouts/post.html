@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="post">
+  <p class="post-meta">{{ page.category | default: "Guide" }} · Updated {{ page.last_modified_at | default: page.date | date: "%B %-d, %Y" }}{% assign words = content | number_of_words %} · {{ words | divided_by: 220 | plus: 1 }} min read</p>
+  <h1>{{ page.title }}</h1>
+  {% if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
+  {% include disclosure.html %}
+  {{ content }}
+  {% include kit-cta.html %}
+  {% assign related = site.posts | where_exp: "p", "p.url != page.url" | sample: 3 %}
+  <section class="related">
+    <h2>Keep reading</h2>
+    <ul>{% for p in related %}<li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>{% endfor %}</ul>
+  </section>
+</article>

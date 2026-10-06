@@ -1,0 +1,34 @@
+title: Money Starter
+tagline: Plain-English guides to budgeting, paying off debt and saving
+description: Step-by-step guides to making a budget, paying off debt and saving for goals, with worked examples and free calculators you can follow.
+url: "https://today-jeeves.github.io"
+baseurl: ""
+lang: en_US
+timezone: America/New_York
+permalink: /:title/
+
+# Store link used in every article's call to action
+kit_url: "https://forgeebg.gumroad.com/l/darhh"
+kit_name: "Money Starter Kit"
+kit_price: "$15"
+
+# Fill these in once the accounts are approved (leave blank until then)
+amazon_tag: ""          # Amazon Associates tracking ID, e.g. yourname-20
+adsense_client: ""      # AdSense publisher ID, e.g. ca-pub-1234567890123456
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "" }
+    values: { layout: page }
+
+exclude: [README.md, TOPICS.md, Gemfile, Gemfile.lock, AUTOMATION.md, vendor]
