@@ -1,6 +1,6 @@
 # Topic queue
 
-- [ ] How to budget on an irregular income
+- [x] How to budget on an irregular income
 - [ ] What is a good credit score and how to improve it
 - [ ] How to build credit from scratch
 - [ ] Credit utilization explained
